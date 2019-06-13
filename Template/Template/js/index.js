@@ -252,14 +252,14 @@ function random(lower, upper) {
 }
 var  meshList= new Object();
 
-//cycle, simulating xyz
+
 for (var x=0;x<3;x++){
 
     for (var y=0;y<3;y++){
 
         for (var z=0;z<3;z++){
 
-            //set the Shape
+
             var geometry = new THREE.BoxGeometry(50, 50, 50);
             var n=random(0,6);
 
@@ -292,7 +292,7 @@ for (var x=0;x<3;x++){
 
 
 
-         //random material
+
 
             var material = new THREE.MeshLambertMaterial({
                 color: getRandomColor(),
@@ -308,13 +308,13 @@ for (var x=0;x<3;x++){
             var mesh = new THREE.Mesh( geometry, material );
 
 
-            //the default value
+
             mesh.position.z = -600;
             mesh.position.y = -900;
             mesh.position.x = -100;
 
 
-            //control the position
+
             mesh.position.z = -1*z*200 -400;
            mesh.position.x = x*220-220 ;
             mesh.position.y = y*200-200;
@@ -330,7 +330,7 @@ for (var x=0;x<3;x++){
             scene.add( mesh );
 
 
-            //cache Object
+
             var key= x+"-"+y+"-"+z;
             meshList[key]=mesh;
 
@@ -358,7 +358,7 @@ var render = function () {
     */
 
 
-    //time to refresh
+
     for (var x=0;x<3;x++){
 
         for (var y=0;y<3;y++){
