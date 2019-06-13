@@ -1,6 +1,7 @@
 # DAT505CODING ASSIGNMENT
 ## B161006064 ZiyuDong
 ## NUA Student ID:B161006064
+### https://github.com/Blue-98/DAT505CODING
 
 ## What is my project
 My homework is to use the mouse click to refresh the page object shape and color will immediately change. I refer to an example of an electronic screen used to introduce astronomical knowledge when going to the astronomy museum to see an exhibition. Different cosmic galaxies appear when visitors touch the screen.Video is used on many websites to show the magic of the universe. Due to my limited ability, I used the code to change the shape, color and arrangement of objects. Make the final project look like a simple cosmic galaxy.
